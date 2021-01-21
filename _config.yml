@@ -1,0 +1,23 @@
+title: PyNotes
+author: Andres Patrignani
+copyright: "2021" 
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_extended_syntax: true
+
+repository:
+  url: https://github.com/soilwater/pynotes
+
+html:
+  use_repository_button: true
+  google_analytics_id: UA-XXXXXXXXX-X
+  extra_footer: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Licensed under CC BY-NC-SA</a>
+
+sphinx:
+  language: en
+  config:
+    html_extra_path: ['']

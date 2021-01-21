@@ -1,0 +1,214 @@
+- file: landing-page
+
+- part: Getting started
+  chapters:
+  - file: markdown/inspiration
+  - file: markdown/installing_software
+  - file: markdown/reproducible_research
+  - file: markdown/terminal_commands
+  - file: markdown/git_commands
+  - file: markdown/my_first_repo
+  - file: markdown/markdown_basics
+  - file: markdown/latex_equations
+  - file: markdown/alt_python_libraries
+  - file: notebooks/hello_world
+  - file: notebooks/help_resources
+
+- part: Good coding practices
+  chapters:
+  - file: markdown/code_style
+  - file: markdown/reference_framework
+
+- part: Simple computations
+  chapters:
+  - file: notebooks/importing_modules
+  - file: notebooks/math_module
+  - file: notebooks/calculator_examples
+  - file: notebooks/mass_volume_relationships
+
+- part: Random
+  chapters:
+  - file: notebooks/random_module
+  - file: notebooks/random_walk
+  - file: notebooks/random_groups_of_people
+  - file: notebooks/random_plots
+
+- part: Data types structures
+  chapters:
+  - file: notebooks/data_types
+  - file: notebooks/data_structures
+  - file: notebooks/indexing_and_slicing_lists
+  - file: notebooks/strings
+  - file: notebooks/objects
+  - file: notebooks/classes
+  - file: notebooks/inputs
+  - file: notebooks/input_wizard
+  - file: notebooks/sedimentation_time
+
+- part: Directory navigation
+  chapters:
+  - file: notebooks/os_module
+  - file: notebooks/glob_module
+
+- part: Dates and Time
+  chapters:
+  - file: notebooks/time_module
+  - file: notebooks/datetime_module
+  - file: notebooks/leap_year
+  - file: notebooks/day_of_year
+  - file: notebooks/day_of_week
+
+- part: Control flow
+  chapters:
+  - file: notebooks/for_loops
+  - file: notebooks/comparative_anatomy_for_loops
+  - file: notebooks/while_loops
+  - file: notebooks/if_statement
+  - file: notebooks/comparative_anatomy_if_statement
+  - file: notebooks/fibonacci_sequence
+  - file: notebooks/sorting_numbers
+  - file: notebooks/error_handling
+
+- part: Functions
+  chapters:
+  - file: notebooks/anonymous_functions
+  - file: notebooks/functions
+  - file: notebooks/comparative_anatomy_functions
+  - file: notebooks/capillarity
+  - file: notebooks/pedotransfer_saxton_rawls
+  - file: notebooks/soil_textural_class
+  - file: notebooks/radiocarbon_dating
+
+- part: Strings
+  chapters:
+  - file: notebooks/regular_expressions
+  - file: notebooks/matching_dna_strand
+  - file: notebooks/central_dogma_single_polypeptide
+  - file: notebooks/central_dogma_multiple_polypeptides
+  - file: notebooks/morse_decoder
+  - file: notebooks/morse_encoder
+  - file: notebooks/morse_code_guessing_game
+
+- part: Plotting
+  chapters:
+  - file: notebooks/plotting_matplotlib
+  - file: notebooks/plotting_seaborn
+  - file: notebooks/plotting_bokeh
+  - file: notebooks/plotting_holoviews
+  - file: notebooks/interactive_apps
+
+- part: Numpy and Pandas
+  chapters:
+  - file: notebooks/numpy_module
+  - file: notebooks/noisy_wave
+  - file: notebooks/vapor_pressure_deficit
+  - file: notebooks/photoperiod_numpy_module
+  - file: notebooks/pandas_module
+  - file: notebooks/pandas_mesonet_stations
+  - file: notebooks/import_tabular_data
+  - file: notebooks/handy_functions
+  - file: notebooks/precipitation_distribution
+  - file: notebooks/bird_counts
+
+- part: Web data
+  chapters:
+  - file: notebooks/url_ks_mesonet
+  - file: notebooks/url_ok_mesonet
+  - file: notebooks/url_uscrn
+  - file: notebooks/url_nasa_api
+  - file: notebooks/coronavirus
+
+- part: Statistics and curve fitting
+  chapters:
+  - file: notebooks/statistics_module
+  - file: notebooks/error_metrics
+  - file: notebooks/anova
+  - file: notebooks/group_least_variance
+  - file: notebooks/stats_linear_regression
+  - file: notebooks/sensor_calibration
+  - file: notebooks/neutron_probe_calibration
+  - file: notebooks/anscombe_quartet
+  - file: notebooks/soil_respiration
+  - file: notebooks/optimal_nitrogen_rate
+  - file: notebooks/proctor_test
+  - file: notebooks/cdf_matching
+  - file: notebooks/stats_multiple_linear_regression
+  - file: notebooks/frontier_function
+  - file: notebooks/stats_curve_fitting_exp
+  - file: notebooks/cosmos_calibration
+  - file: notebooks/stats_curve_fitting_wave
+  - file: notebooks/soil_water_retention_curve
+  - file: notebooks/atmospheric_carbon_dioxide
+  - file: notebooks/birthday_paradox
+  - file: notebooks/neural_network_regression
+  - file: notebooks/neural_network_classification
+
+- part: Problems in 1D
+  chapters:
+  - file: notebooks/fill_missing_data
+  - file: notebooks/denoise_passive_neutron_counts
+  - file: notebooks/wheat_potential_biomass
+  - file: notebooks/wheat_phenology
+  - file: notebooks/markov_chain_weather_generator
+  - file: notebooks/antecedent_precipitation_index
+  - file: notebooks/markov_chain_soil_moisture
+  - file: notebooks/rainfall_generator
+  - file: notebooks/precipitation_metrics
+  - file: notebooks/atmospheric_water_deficit
+  - file: notebooks/drydowns_from_timeseries
+  - file: notebooks/air_temperature
+  - file: notebooks/solar_radiation
+  - file: notebooks/soil_temperature
+  - file: notebooks/soil_temperature_model
+  - file: notebooks/soil_water_storage
+  - file: notebooks/exponential_filter
+  - file: notebooks/plant_available_water
+  - file: notebooks/mixing_model
+  - file: notebooks/newton_law_cooling
+  - file: notebooks/lotka_volterra
+  - file: notebooks/leaky_bucket
+  - file: notebooks/thermal_time
+  - file: notebooks/soil_temperature_model
+  - file: notebooks/root_depth
+  - file: notebooks/soil_water_balance
+  - file: notebooks/evaporation
+  - file: notebooks/evapotranspiration
+  - file: notebooks/curve_number
+
+- part: Image analysis
+  chapters:
+  - file: notebooks/canopeo
+  - file: notebooks/count_seeds
+  - file: notebooks/segmented_lake
+  - file: notebooks/soil_cracks_detection
+
+- part: Mapping
+  chapters:
+  - file: notebooks/nearest_station
+  - file: notebooks/inverse_distance_weighting
+  - file: notebooks/interpolation
+  - file: notebooks/raster_nasa_worldview
+  - file: notebooks/land_cover
+  - file: notebooks/denoise_yield_monitor
+  - file: notebooks/raster_change_crs
+  - file: notebooks/field_random_samples
+  - file: notebooks/euclidean_distance
+
+- part: Numerical problems 2D
+  chapters:
+  - file: notebooks/game_of_life
+  - file: notebooks/wildfire_spread
+  - file: notebooks/reaction_diffusion
+  - file: notebooks/disease_spread
+
+- part: Clustering
+  chapters:
+  - file: notebooks/clustering_environments
+  - file: notebooks/soil_water_deficit_classification
+  - file: notebooks/field_management_zones
+
+- part: Symbolic math
+  chapters:
+  - file: notebooks/sympy_module
+  - file: notebooks/logistic_growth
+  - file: notebooks/population_growth
